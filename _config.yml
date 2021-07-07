@@ -1,0 +1,25 @@
+title: MyBlog
+icon: book
+baseurl: /remote-theme-test
+remote_theme: congeal/mini-material-doc
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    block:
+      line_numbers: true
+
+collections:
+  starts:
+    output: true
+    order:
+      - index.md
+  docs:
+    output: true
+    order:
+      - index.md
+      - actions.md

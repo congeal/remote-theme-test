@@ -25,3 +25,8 @@ collections:
     order:
       - index.md
       - actions.md
+
+tipue_search:
+  include:
+    pages: true
+    collections: [starts, docs]
